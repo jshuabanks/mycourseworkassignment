@@ -1,6 +1,6 @@
 region,subregion,key,value
 Latin America & Caribbean,ABW,Aruba,
-South Asia,AFG,Afghanistan,19362969582
+"South Asia",AFG,Afghanistan,19362969582
 Sub-Saharan Africa,AGO,Angola,106000000000
 Europe & Central Asia,ALB,Albania,15058879129
 Europe & Central Asia,AND,Andorra,3236543909
@@ -190,7 +190,7 @@ Europe & Central Asia,PNG,Papua New Guinea,23431596214
 ,POL,Poland,586000000000
 Latin America & Caribbean,PRE,Pre-demographic dividend,1310000000000
 East Asia & Pacific,PRI,Puerto Rico,101000000000
-Europe & Central Asia,PRK,"Korea, Dem. People’s Rep.",
+Europe & Central Asia,PRK,"Korea, Dem. PeopleÂ’s Rep.",
 Latin America & Caribbean,PRT,Portugal,238000000000
 Middle East & North Africa,PRY,Paraguay,40842341774
 ,PSE,West Bank and Gaza,14615900000
