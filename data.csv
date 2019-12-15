@@ -1,265 +1,265 @@
-﻿"""Region""","""Sub Region""","""Key""","""Value"""
+﻿"""region""","""subregion""","""key""","""value"""
 Latin America & Caribbean,ABW,Aruba,
-"""South Asia""","""AFG""","""Afghanistan""",19362969582.00
-Sub-Saharan Africa,AGO,Angola,106000000000.00
-Europe & Central Asia,ALB,Albania,15058879129.00
-Europe & Central Asia,AND,Andorra,3236543909.00
-,ARB,Arab World,2780000000000.00
-Middle East & North Africa,ARE,United Arab Emirates,414000000000.00
-Latin America & Caribbean,ARG,Argentina,518000000000.00
-Europe & Central Asia,ARM,Armenia,12433089919.00
+"""South Asia""","""AFG""","""Afghanistan""",19362969582
+Sub-Saharan Africa,AGO,Angola,1;06E+11
+Europe & Central Asia,ALB,Albania,15058879129
+Europe & Central Asia,AND,Andorra,3236543909
+,ARB,Arab World,2;78E+12
+Middle East & North Africa,ARE,United Arab Emirates,4;14E+11
+Latin America & Caribbean,ARG,Argentina,5;18E+11
+Europe & Central Asia,ARM,Armenia,12433089919
 East Asia & Pacific,ASM,American Samoa,
-Latin America & Caribbean,ATG,Antigua and Barbuda,1623804016.00
-East Asia & Pacific,AUS,Australia,1430000000000.00
-Europe & Central Asia,AUT,Austria,456000000000.00
-Europe & Central Asia,AZE,Azerbaijan,46939529412.00
-Sub-Saharan Africa,BDI,Burundi,3078029929.00
-Europe & Central Asia,BEL,Belgium,532000000000.00
-Sub-Saharan Africa,BEN,Benin,10358985583.00
-Sub-Saharan Africa,BFA,Burkina Faso,14441763759.00
-South Asia,BGD,Bangladesh,274000000000.00
-Europe & Central Asia,BGR,Bulgaria,65132951116.00
-Middle East & North Africa,BHR,Bahrain,37746196809.00
+Latin America & Caribbean,ATG,Antigua and Barbuda,1623804016
+East Asia & Pacific,AUS,Australia,1;43E+12
+Europe & Central Asia,AUT,Austria,4;56E+11
+Europe & Central Asia,AZE,Azerbaijan,46939529412
+Sub-Saharan Africa,BDI,Burundi,3078029929
+Europe & Central Asia,BEL,Belgium,5;32E+11
+Sub-Saharan Africa,BEN,Benin,10358985583
+Sub-Saharan Africa,BFA,Burkina Faso,14441763759
+South Asia,BGD,Bangladesh,2;74E+11
+Europe & Central Asia,BGR,Bulgaria,65132951116
+Middle East & North Africa,BHR,Bahrain,37746196809
 Latin America & Caribbean,BHS,"Bahamas, The",
-Europe & Central Asia,BIH,Bosnia and Herzegovina,19781776101.00
-Europe & Central Asia,BLR,Belarus,59662495092.00
-Latin America & Caribbean,BLZ,Belize,1925000000.00
+Europe & Central Asia,BIH,Bosnia and Herzegovina,19781776101
+Europe & Central Asia,BLR,Belarus,59662495092
+Latin America & Caribbean,BLZ,Belize,1925000000
 North America,BMU,Bermuda,
-Latin America & Caribbean,BOL,Bolivia,40287647757.00
-Latin America & Caribbean,BRA,Brazil,1870000000000.00
+Latin America & Caribbean,BOL,Bolivia,40287647757
+Latin America & Caribbean,BRA,Brazil,1;87E+12
 Latin America & Caribbean,BRB,Barbados,
-East Asia & Pacific,BRN,Brunei Darussalam,13567099498.00
-South Asia,BTN,Bhutan,2534965163.00
-Sub-Saharan Africa,BWA,Botswana,18616018903.00
-Sub-Saharan Africa,CAF,Central African Republic,2379716827.00
-North America,CAN,Canada,1710000000000.00
-,CEB,Central Europe and the Baltics,1630000000000.00
-Europe & Central Asia,CHE,Switzerland,706000000000.00
+East Asia & Pacific,BRN,Brunei Darussalam,13567099498
+South Asia,BTN,Bhutan,2534965163
+Sub-Saharan Africa,BWA,Botswana,18616018903
+Sub-Saharan Africa,CAF,Central African Republic,2379716827
+North America,CAN,Canada,1;71E+12
+,CEB,Central Europe and the Baltics,1;63E+12
+Europe & Central Asia,CHE,Switzerland,7;06E+11
 Europe & Central Asia,CHI,Channel Islands,
-Latin America & Caribbean,CHL,Chile,298000000000.00
-East Asia & Pacific,CHN,China,13600000000000.00
-Sub-Saharan Africa,CIV,Cote d'Ivoire,43007045466.00
-Sub-Saharan Africa,CMR,Cameroon,38502059858.00
-Sub-Saharan Africa,COD,"Congo, Dem. Rep.",47227535291.00
-Sub-Saharan Africa,COG,"Congo, Rep.",11263682694.00
-Latin America & Caribbean,COL,Colombia,330000000000.00
-Sub-Saharan Africa,COM,Comoros,1203080508.00
-Sub-Saharan Africa,CPV,Cabo Verde,1986928612.00
-Latin America & Caribbean,CRI,Costa Rica,60126014829.00
-,CSS,Caribbean small states,72930271173.00
+Latin America & Caribbean,CHL,Chile,2;98E+11
+East Asia & Pacific,CHN,China,1;36E+13
+Sub-Saharan Africa,CIV,Cote d'Ivoire,43007045466
+Sub-Saharan Africa,CMR,Cameroon,38502059858
+Sub-Saharan Africa,COD,"Congo, Dem. Rep.",47227535291
+Sub-Saharan Africa,COG,"Congo, Rep.",11263682694
+Latin America & Caribbean,COL,Colombia,3;3E+11
+Sub-Saharan Africa,COM,Comoros,1203080508
+Sub-Saharan Africa,CPV,Cabo Verde,1986928612
+Latin America & Caribbean,CRI,Costa Rica,60126014829
+,CSS,Caribbean small states,72930271173
 Latin America & Caribbean,CUB,Cuba,
 Latin America & Caribbean,CUW,Curacao,
 Latin America & Caribbean,CYM,Cayman Islands,
-Europe & Central Asia,CYP,Cyprus,24469841832.00
-Europe & Central Asia,CZE,Czech Republic,245000000000.00
-Europe & Central Asia,DEU,Germany,4000000000000.00
-Middle East & North Africa,DJI,Djibouti,1965982322.00
-Latin America & Caribbean,DMA,Dominica,503646211.10
-Europe & Central Asia,DNK,Denmark,352000000000.00
-Latin America & Caribbean,DOM,Dominican Republic,81298585403.00
-Middle East & North Africa,DZA,Algeria,181000000000.00
-,EAP,East Asia & Pacific (excluding high income),16300000000000.00
-,EAR,Early-demographic dividend,11600000000000.00
-,EAS,East Asia & Pacific,25900000000000.00
-,ECA,Europe & Central Asia (excluding high income),3390000000000.00
-,ECS,Europe & Central Asia,23000000000000.00
-Latin America & Caribbean,ECU,Ecuador,108000000000.00
-Middle East & North Africa,EGY,"Egypt, Arab Rep.",251000000000.00
-,EMU,Euro area,13700000000000.00
+Europe & Central Asia,CYP,Cyprus,24469841832
+Europe & Central Asia,CZE,Czech Republic,2;45E+11
+Europe & Central Asia,DEU,Germany,4E+12
+Middle East & North Africa,DJI,Djibouti,1965982322
+Latin America & Caribbean,DMA,Dominica,503646211;1
+Europe & Central Asia,DNK,Denmark,3;52E+11
+Latin America & Caribbean,DOM,Dominican Republic,81298585403
+Middle East & North Africa,DZA,Algeria,1;81E+11
+,EAP,East Asia & Pacific (excluding high income),1;63E+13
+,EAR,Early-demographic dividend,1;16E+13
+,EAS,East Asia & Pacific,2;59E+13
+,ECA,Europe & Central Asia (excluding high income),3;39E+12
+,ECS,Europe & Central Asia,2;3E+13
+Latin America & Caribbean,ECU,Ecuador,1;08E+11
+Middle East & North Africa,EGY,"Egypt, Arab Rep.",2;51E+11
+,EMU,Euro area,1;37E+13
 Sub-Saharan Africa,ERI,Eritrea,
-Europe & Central Asia,ESP,Spain,1430000000000.00
-Europe & Central Asia,EST,Estonia,30284890757.00
-Sub-Saharan Africa,ETH,Ethiopia,84355462494.00
-,EUU,European Union,18800000000000.00
-,FCS,Fragile and conflict affected situations,832000000000.00
-Europe & Central Asia,FIN,Finland,274000000000.00
-East Asia & Pacific,FJI,Fiji,5479504926.00
-Europe & Central Asia,FRA,France,2780000000000.00
+Europe & Central Asia,ESP,Spain,1;43E+12
+Europe & Central Asia,EST,Estonia,30284890757
+Sub-Saharan Africa,ETH,Ethiopia,84355462494
+,EUU,European Union,1;88E+13
+,FCS,Fragile and conflict affected situations,8;32E+11
+Europe & Central Asia,FIN,Finland,2;74E+11
+East Asia & Pacific,FJI,Fiji,5479504926
+Europe & Central Asia,FRA,France,2;78E+12
 Europe & Central Asia,FRO,Faroe Islands,
-East Asia & Pacific,FSM,"Micronesia, Fed. Sts.",344501760.00
-Sub-Saharan Africa,GAB,Gabon,17017401832.00
-Europe & Central Asia,GBR,United Kingdom,2830000000000.00
-Europe & Central Asia,GEO,Georgia,16209818081.00
-Sub-Saharan Africa,GHA,Ghana,65556464056.00
+East Asia & Pacific,FSM,"Micronesia, Fed. Sts.",344501760
+Sub-Saharan Africa,GAB,Gabon,17017401832
+Europe & Central Asia,GBR,United Kingdom,2;83E+12
+Europe & Central Asia,GEO,Georgia,16209818081
+Sub-Saharan Africa,GHA,Ghana,65556464056
 Europe & Central Asia,GIB,Gibraltar,
-Sub-Saharan Africa,GIN,Guinea,10989790256.00
-Sub-Saharan Africa,GMB,"Gambia, The",1624464137.00
-Sub-Saharan Africa,GNB,Guinea-Bissau,1458156026.00
-Sub-Saharan Africa,GNQ,Equatorial Guinea,13317453070.00
-Europe & Central Asia,GRC,Greece,218000000000.00
-Latin America & Caribbean,GRD,Grenada,1207454556.00
+Sub-Saharan Africa,GIN,Guinea,10989790256
+Sub-Saharan Africa,GMB,"Gambia, The",1624464137
+Sub-Saharan Africa,GNB,Guinea-Bissau,1458156026
+Sub-Saharan Africa,GNQ,Equatorial Guinea,13317453070
+Europe & Central Asia,GRC,Greece,2;18E+11
+Latin America & Caribbean,GRD,Grenada,1207454556
 Europe & Central Asia,GRL,Greenland,
-Latin America & Caribbean,GTM,Guatemala,78460447920.00
+Latin America & Caribbean,GTM,Guatemala,78460447920
 East Asia & Pacific,GUM,Guam,
-Latin America & Caribbean,GUY,Guyana,3610435299.00
-,HIC,High income,54100000000000.00
-East Asia & Pacific,HKG,"Hong Kong SAR, China",363000000000.00
-Latin America & Caribbean,HND,Honduras,23803230473.00
-,HPC,Heavily indebted poor countries (HIPC),727000000000.00
-Europe & Central Asia,HRV,Croatia,60805659436.00
-Latin America & Caribbean,HTI,Haiti,9658084644.00
-Europe & Central Asia,HUN,Hungary,156000000000.00
-,IBD,IBRD only,30500000000000.00
-,IBT,IDA & IBRD total,32700000000000.00
-,IDA,IDA total,2210000000000.00
-,IDB,IDA blend,991000000000.00
-East Asia & Pacific,IDN,Indonesia,1040000000000.00
-,IDX,IDA only,1220000000000.00
+Latin America & Caribbean,GUY,Guyana,3610435299
+,HIC,High income,5;41E+13
+East Asia & Pacific,HKG,"Hong Kong SAR, China",3;63E+11
+Latin America & Caribbean,HND,Honduras,23803230473
+,HPC,Heavily indebted poor countries (HIPC),7;27E+11
+Europe & Central Asia,HRV,Croatia,60805659436
+Latin America & Caribbean,HTI,Haiti,9658084644
+Europe & Central Asia,HUN,Hungary,1;56E+11
+,IBD,IBRD only,3;05E+13
+,IBT,IDA & IBRD total,3;27E+13
+,IDA,IDA total,2;21E+12
+,IDB,IDA blend,9;91E+11
+East Asia & Pacific,IDN,Indonesia,1;04E+12
+,IDX,IDA only,1;22E+12
 Europe & Central Asia,IMN,Isle of Man,
-South Asia,IND,India,2730000000000.00
+South Asia,IND,India,2;73E+12
 Europe & Central Asia,INX,Not classified,
-Middle East & North Africa,IRL,Ireland,382000000000.00
+Middle East & North Africa,IRL,Ireland,3;82E+11
 Middle East & North Africa,IRN,"Iran, Islamic Rep.",
-Europe & Central Asia,IRQ,Iraq,226000000000.00
-Middle East & North Africa,ISL,Iceland,25882218777.00
-Europe & Central Asia,ISR,Israel,370000000000.00
-Latin America & Caribbean,ITA,Italy,2070000000000.00
-Middle East & North Africa,JAM,Jamaica,15717858487.00
-East Asia & Pacific,JOR,Jordan,42290832158.00
-Europe & Central Asia,JPN,Japan,4970000000000.00
-Sub-Saharan Africa,KAZ,Kazakhstan,171000000000.00
-Europe & Central Asia,KEN,Kenya,87908262520.00
-East Asia & Pacific,KGZ,Kyrgyz Republic,8092836609.00
-East Asia & Pacific,KHM,Cambodia,24571753583.00
-Latin America & Caribbean,KIR,Kiribati,188284518.80
-East Asia & Pacific,KNA,St. Kitts and Nevis,1039875050.00
-Middle East & North Africa,KOR,"Korea, Rep.",1620000000000.00
-,KWT,Kuwait,142000000000.00
-East Asia & Pacific,LAC,Latin America & Caribbean (excluding high income),5190000000000.00
-Middle East & North Africa,LAO,Lao PDR,18130724396.00
-Sub-Saharan Africa,LBN,Lebanon,56639155556.00
-Middle East & North Africa,LBR,Liberia,3249000000.00
-Latin America & Caribbean,LBY,Libya,48319620013.00
-,LCA,St. Lucia,1876189778.00
-,LCN,Latin America & Caribbean,5790000000000.00
-,LDC,Least developed countries: UN classification,1050000000000.00
-Europe & Central Asia,LIC,Low income,573000000000.00
+Europe & Central Asia,IRQ,Iraq,2;26E+11
+Middle East & North Africa,ISL,Iceland,25882218777
+Europe & Central Asia,ISR,Israel,3;7E+11
+Latin America & Caribbean,ITA,Italy,2;07E+12
+Middle East & North Africa,JAM,Jamaica,15717858487
+East Asia & Pacific,JOR,Jordan,42290832158
+Europe & Central Asia,JPN,Japan,4;97E+12
+Sub-Saharan Africa,KAZ,Kazakhstan,1;71E+11
+Europe & Central Asia,KEN,Kenya,87908262520
+East Asia & Pacific,KGZ,Kyrgyz Republic,8092836609
+East Asia & Pacific,KHM,Cambodia,24571753583
+Latin America & Caribbean,KIR,Kiribati,188284518;8
+East Asia & Pacific,KNA,St. Kitts and Nevis,1039875050
+Middle East & North Africa,KOR,"Korea, Rep.",1;62E+12
+,KWT,Kuwait,1;42E+11
+East Asia & Pacific,LAC,Latin America & Caribbean (excluding high income),5;19E+12
+Middle East & North Africa,LAO,Lao PDR,18130724396
+Sub-Saharan Africa,LBN,Lebanon,56639155556
+Middle East & North Africa,LBR,Liberia,3249000000
+Latin America & Caribbean,LBY,Libya,48319620013
+,LCA,St. Lucia,1876189778
+,LCN,Latin America & Caribbean,5;79E+12
+,LDC,Least developed countries: UN classification,1;05E+12
+Europe & Central Asia,LIC,Low income,5;73E+11
 South Asia,LIE,Liechtenstein,
-,LKA,Sri Lanka,88900770858.00
-,LMC,Lower middle income,6710000000000.00
-Sub-Saharan Africa,LMY,Low & middle income,31700000000000.00
-,LSO,Lesotho,2791762880.00
-Europe & Central Asia,LTE,Late-demographic dividend,22200000000000.00
-Europe & Central Asia,LTU,Lithuania,53251369047.00
-Europe & Central Asia,LUX,Luxembourg,69487922619.00
-East Asia & Pacific,LVA,Latvia,34849078086.00
-Latin America & Caribbean,MAC,"Macao SAR, China",54545184268.00
+,LKA,Sri Lanka,88900770858
+,LMC,Lower middle income,6;71E+12
+Sub-Saharan Africa,LMY,Low & middle income,3;17E+13
+,LSO,Lesotho,2791762880
+Europe & Central Asia,LTE,Late-demographic dividend,2;22E+13
+Europe & Central Asia,LTU,Lithuania,53251369047
+Europe & Central Asia,LUX,Luxembourg,69487922619
+East Asia & Pacific,LVA,Latvia,34849078086
+Latin America & Caribbean,MAC,"Macao SAR, China",54545184268
 Middle East & North Africa,MAF,St. Martin (French part),
-Europe & Central Asia,MAR,Morocco,118000000000.00
+Europe & Central Asia,MAR,Morocco,1;18E+11
 Europe & Central Asia,MCO,Monaco,
-Sub-Saharan Africa,MDA,Moldova,11309082555.00
-South Asia,MDG,Madagascar,12100459087.00
-,MDV,Maldives,5272288443.00
-Latin America & Caribbean,MEA,Middle East & North Africa,3620000000000.00
-East Asia & Pacific,MEX,Mexico,1220000000000.00
-,MHL,Marshall Islands,211523642.40
-Europe & Central Asia,MIC,Middle income,31100000000000.00
-Sub-Saharan Africa,MKD,North Macedonia,12672131053.00
-Middle East & North Africa,MLI,Mali,17196688920.00
-East Asia & Pacific,MLT,Malta,14542039605.00
-,MMR,Myanmar,71214803378.00
+Sub-Saharan Africa,MDA,Moldova,11309082555
+South Asia,MDG,Madagascar,12100459087
+,MDV,Maldives,5272288443
+Latin America & Caribbean,MEA,Middle East & North Africa,3;62E+12
+East Asia & Pacific,MEX,Mexico,1;22E+12
+,MHL,Marshall Islands,211523642;4
+Europe & Central Asia,MIC,Middle income,3;11E+13
+Sub-Saharan Africa,MKD,North Macedonia,12672131053
+Middle East & North Africa,MLI,Mali,17196688920
+East Asia & Pacific,MLT,Malta,14542039605
+,MMR,Myanmar,71214803378
 Europe & Central Asia,MNA,Middle East & North Africa (excluding high income),
-East Asia & Pacific,MNE,Montenegro,5452173041.00
-East Asia & Pacific,MNG,Mongolia,13009574621.00
+East Asia & Pacific,MNE,Montenegro,5452173041
+East Asia & Pacific,MNG,Mongolia,13009574621
 Sub-Saharan Africa,MNP,Northern Mariana Islands,
-Sub-Saharan Africa,MOZ,Mozambique,14457964381.00
-Sub-Saharan Africa,MRT,Mauritania,5365868725.00
-Sub-Saharan Africa,MUS,Mauritius,14220348673.00
-East Asia & Pacific,MWI,Malawi,7064971176.00
-,MYS,Malaysia,354000000000.00
-Sub-Saharan Africa,NAC,North America,22200000000000.00
-East Asia & Pacific,NAM,Namibia,14521711630.00
+Sub-Saharan Africa,MOZ,Mozambique,14457964381
+Sub-Saharan Africa,MRT,Mauritania,5365868725
+Sub-Saharan Africa,MUS,Mauritius,14220348673
+East Asia & Pacific,MWI,Malawi,7064971176
+,MYS,Malaysia,3;54E+11
+Sub-Saharan Africa,NAC,North America,2;22E+13
+East Asia & Pacific,NAM,Namibia,14521711630
 Sub-Saharan Africa,NCL,New Caledonia,
-Sub-Saharan Africa,NER,Niger,9239513530.00
-Latin America & Caribbean,NGA,Nigeria,397000000000.00
-Europe & Central Asia,NIC,Nicaragua,13117859222.00
-Europe & Central Asia,NLD,Netherlands,914000000000.00
-South Asia,NOR,Norway,435000000000.00
-East Asia & Pacific,NPL,Nepal,28812491892.00
-East Asia & Pacific,NRU,Nauru,114718022.80
-,NZL,New Zealand,205000000000.00
-Middle East & North Africa,OED,OECD members,52600000000000.00
-,OMN,Oman,79294928479.00
-South Asia,OSS,Other small states,452000000000.00
-Latin America & Caribbean,PAK,Pakistan,313000000000.00
-Latin America & Caribbean,PAN,Panama,65055100000.00
-East Asia & Pacific,PER,Peru,222000000000.00
-East Asia & Pacific,PHL,Philippines,331000000000.00
-East Asia & Pacific,PLW,Palau,310111145.00
-Europe & Central Asia,PNG,Papua New Guinea,23431596214.00
-,POL,Poland,586000000000.00
-Latin America & Caribbean,PRE,Pre-demographic dividend,1310000000000.00
-East Asia & Pacific,PRI,Puerto Rico,101000000000.00
+Sub-Saharan Africa,NER,Niger,9239513530
+Latin America & Caribbean,NGA,Nigeria,3;97E+11
+Europe & Central Asia,NIC,Nicaragua,13117859222
+Europe & Central Asia,NLD,Netherlands,9;14E+11
+South Asia,NOR,Norway,4;35E+11
+East Asia & Pacific,NPL,Nepal,28812491892
+East Asia & Pacific,NRU,Nauru,114718022;8
+,NZL,New Zealand,2;05E+11
+Middle East & North Africa,OED,OECD members,5;26E+13
+,OMN,Oman,79294928479
+South Asia,OSS,Other small states,4;52E+11
+Latin America & Caribbean,PAK,Pakistan,3;13E+11
+Latin America & Caribbean,PAN,Panama,65055100000
+East Asia & Pacific,PER,Peru,2;22E+11
+East Asia & Pacific,PHL,Philippines,3;31E+11
+East Asia & Pacific,PLW,Palau,310111145
+Europe & Central Asia,PNG,Papua New Guinea,23431596214
+,POL,Poland,5;86E+11
+Latin America & Caribbean,PRE,Pre-demographic dividend,1;31E+12
+East Asia & Pacific,PRI,Puerto Rico,1;01E+11
 Europe & Central Asia,PRK,"Korea, Dem. People’s Rep.",
-Latin America & Caribbean,PRT,Portugal,238000000000.00
-Middle East & North Africa,PRY,Paraguay,40842341774.00
-,PSE,West Bank and Gaza,14615900000.00
-,PSS,Pacific island small states,10302802236.00
-East Asia & Pacific,PST,Post-demographic dividend,50000000000000.00
+Latin America & Caribbean,PRT,Portugal,2;38E+11
+Middle East & North Africa,PRY,Paraguay,40842341774
+,PSE,West Bank and Gaza,14615900000
+,PSS,Pacific island small states,10302802236
+East Asia & Pacific,PST,Post-demographic dividend,5E+13
 Middle East & North Africa,PYF,French Polynesia,
-Europe & Central Asia,QAT,Qatar,192000000000.00
-Europe & Central Asia,ROU,Romania,240000000000.00
-Sub-Saharan Africa,RUS,Russian Federation,1660000000000.00
-,RWA,Rwanda,9509003197.00
-Middle East & North Africa,SAS,South Asia,3460000000000.00
-Sub-Saharan Africa,SAU,Saudi Arabia,782000000000.00
-Sub-Saharan Africa,SDN,Sudan,40851536134.00
-East Asia & Pacific,SEN,Senegal,24129599552.00
-East Asia & Pacific,SGP,Singapore,364000000000.00
-Sub-Saharan Africa,SLB,Solomon Islands,1411904531.00
-Latin America & Caribbean,SLE,Sierra Leone,3999945202.00
-Europe & Central Asia,SLV,El Salvador,26056950000.00
+Europe & Central Asia,QAT,Qatar,1;92E+11
+Europe & Central Asia,ROU,Romania,2;4E+11
+Sub-Saharan Africa,RUS,Russian Federation,1;66E+12
+,RWA,Rwanda,9509003197
+Middle East & North Africa,SAS,South Asia,3;46E+12
+Sub-Saharan Africa,SAU,Saudi Arabia,7;82E+11
+Sub-Saharan Africa,SDN,Sudan,40851536134
+East Asia & Pacific,SEN,Senegal,24129599552
+East Asia & Pacific,SGP,Singapore,3;64E+11
+Sub-Saharan Africa,SLB,Solomon Islands,1411904531
+Latin America & Caribbean,SLE,Sierra Leone,3999945202
+Europe & Central Asia,SLV,El Salvador,26056950000
 Sub-Saharan Africa,SMR,San Marino,
-Europe & Central Asia,SOM,Somalia,4721000393.00
-,SRB,Serbia,50508366850.00
-Sub-Saharan Africa,SSA,Sub-Saharan Africa (excluding high income),1700000000000.00
+Europe & Central Asia,SOM,Somalia,4721000393
+,SRB,Serbia,50508366850
+Sub-Saharan Africa,SSA,Sub-Saharan Africa (excluding high income),1;7E+12
 ,SSD,South Sudan,
-,SSF,Sub-Saharan Africa,1700000000000.00
-Sub-Saharan Africa,SST,Small states,536000000000.00
-Latin America & Caribbean,STP,Sao Tome and Principe,422296762.30
-Europe & Central Asia,SUR,Suriname,3427269682.00
-Europe & Central Asia,SVK,Slovak Republic,106000000000.00
-Europe & Central Asia,SVN,Slovenia,54235484383.00
-Sub-Saharan Africa,SWE,Sweden,551000000000.00
-Latin America & Caribbean,SWZ,Eswatini,4703787507.00
+,SSF,Sub-Saharan Africa,1;7E+12
+Sub-Saharan Africa,SST,Small states,5;36E+11
+Latin America & Caribbean,STP,Sao Tome and Principe,422296762;3
+Europe & Central Asia,SUR,Suriname,3427269682
+Europe & Central Asia,SVK,Slovak Republic,1;06E+11
+Europe & Central Asia,SVN,Slovenia,54235484383
+Sub-Saharan Africa,SWE,Sweden,5;51E+11
+Latin America & Caribbean,SWZ,Eswatini,4703787507
 Sub-Saharan Africa,SXM,Sint Maarten (Dutch part),
-Middle East & North Africa,SYC,Seychelles,1590180446.00
+Middle East & North Africa,SYC,Seychelles,1590180446
 Latin America & Caribbean,SYR,Syrian Arab Republic,
-Sub-Saharan Africa,TCA,Turks and Caicos Islands,1022312010.00
-,TCD,Chad,11302544205.00
-,TEA,East Asia & Pacific (IDA & IBRD countries),16200000000000.00
-Sub-Saharan Africa,TEC,Europe & Central Asia (IDA & IBRD countries),4040000000000.00
-East Asia & Pacific,TGO,Togo,5300214337.00
-Europe & Central Asia,THA,Thailand,505000000000.00
-Europe & Central Asia,TJK,Tajikistan,7522947810.00
-,TKM,Turkmenistan,40761142857.00
-East Asia & Pacific,TLA,Latin America & the Caribbean (IDA & IBRD countries),5560000000000.00
-,TLS,Timor-Leste,2581000000.00
+Sub-Saharan Africa,TCA,Turks and Caicos Islands,1022312010
+,TCD,Chad,11302544205
+,TEA,East Asia & Pacific (IDA & IBRD countries),1;62E+13
+Sub-Saharan Africa,TEC,Europe & Central Asia (IDA & IBRD countries),4;04E+12
+East Asia & Pacific,TGO,Togo,5300214337
+Europe & Central Asia,THA,Thailand,5;05E+11
+Europe & Central Asia,TJK,Tajikistan,7522947810
+,TKM,Turkmenistan,40761142857
+East Asia & Pacific,TLA,Latin America & the Caribbean (IDA & IBRD countries),5;56E+12
+,TLS,Timor-Leste,2581000000
 East Asia & Pacific,TMN,Middle East & North Africa (IDA & IBRD countries),
-,TON,Tonga,450353313.90
-,TSA,South Asia (IDA & IBRD),3460000000000.00
-Latin America & Caribbean,TSS,Sub-Saharan Africa (IDA & IBRD countries),1700000000000.00
-Middle East & North Africa,TTO,Trinidad and Tobago,23410353435.00
-Europe & Central Asia,TUN,Tunisia,39860715814.00
-East Asia & Pacific,TUR,Turkey,767000000000.00
-Sub-Saharan Africa,TUV,Tuvalu,42587778.47
-Sub-Saharan Africa,TZA,Tanzania,57437073927.00
-Europe & Central Asia,UGA,Uganda,27476945526.00
-,UKR,Ukraine,131000000000.00
-Latin America & Caribbean,UMC,Upper middle income,24400000000000.00
-North America,URY,Uruguay,59596885024.00
-Europe & Central Asia,USA,United States,20500000000000.00
-Latin America & Caribbean,UZB,Uzbekistan,50499920318.00
-Latin America & Caribbean,VCT,St. Vincent and the Grenadines,813093984.10
+,TON,Tonga,450353313;9
+,TSA,South Asia (IDA & IBRD),3;46E+12
+Latin America & Caribbean,TSS,Sub-Saharan Africa (IDA & IBRD countries),1;7E+12
+Middle East & North Africa,TTO,Trinidad and Tobago,23410353435
+Europe & Central Asia,TUN,Tunisia,39860715814
+East Asia & Pacific,TUR,Turkey,7;67E+11
+Sub-Saharan Africa,TUV,Tuvalu,42587778;47
+Sub-Saharan Africa,TZA,Tanzania,57437073927
+Europe & Central Asia,UGA,Uganda,27476945526
+,UKR,Ukraine,1;31E+11
+Latin America & Caribbean,UMC,Upper middle income,2;44E+13
+North America,URY,Uruguay,59596885024
+Europe & Central Asia,USA,United States,2;05E+13
+Latin America & Caribbean,UZB,Uzbekistan,50499920318
+Latin America & Caribbean,VCT,St. Vincent and the Grenadines,813093984;1
 Latin America & Caribbean,VEN,"Venezuela, RB",
 Latin America & Caribbean,VGB,British Virgin Islands,
 East Asia & Pacific,VIR,Virgin Islands (U.S.),
-East Asia & Pacific,VNM,Vietnam,245000000000.00
-,VUT,Vanuatu,887817896.30
-East Asia & Pacific,WLD,World,85800000000000.00
-Europe & Central Asia,WSM,Samoa,861494700.70
-Middle East & North Africa,XKX,Kosovo,7900268736.00
-Sub-Saharan Africa,YEM,"Yemen, Rep.",26914402224.00
-Sub-Saharan Africa,ZAF,South Africa,368000000000.00
-Sub-Saharan Africa,ZMB,Zambia,26720073436.00
-,ZWE,Zimbabwe,31000519447.00
+East Asia & Pacific,VNM,Vietnam,2;45E+11
+,VUT,Vanuatu,887817896;3
+East Asia & Pacific,WLD,World,8;58E+13
+Europe & Central Asia,WSM,Samoa,861494700;7
+Middle East & North Africa,XKX,Kosovo,7900268736
+Sub-Saharan Africa,YEM,"Yemen, Rep.",26914402224
+Sub-Saharan Africa,ZAF,South Africa,3;68E+11
+Sub-Saharan Africa,ZMB,Zambia,26720073436
+,ZWE,Zimbabwe,31000519447
