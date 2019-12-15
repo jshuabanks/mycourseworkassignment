@@ -10,19 +10,19 @@ var svg = d3.select("#my_dataviz")
 
 // Read data
 //d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/11_SevCatOneNumNestedOneObsPerGroup.csv", function(data) {
-d3.csv("data.csv", function(data) {
+d3.csv("https://raw.githubusercontent.com/dwvf58/mycourseworkassignment/master/data.csv", function(data) {
 
   // Filter a bit the data -> more than 1 million inhabitants
   data = data.filter(function(d){ return d.value>10000000 })
 
   // Color palette for continents?
   var color = d3.scaleOrdinal()
-    .domain(["Asia", "Europe", "Africa", "Oceania", "Americas"])
+    .domain(["South Asia", "Oceania", "Americas"])
     .range(d3.schemeSet1);
 
   // Size scale for countries
   var size = d3.scaleLinear()
-    .domain([0, 1400000000])
+    .domain([0, 140000000000])
     .range([7,55])  // circle will be between 7 and 55 px wide
 
   // create a tooltip
