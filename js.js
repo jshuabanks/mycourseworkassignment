@@ -22,7 +22,7 @@ d3.csv("https://raw.githubusercontent.com/dwvf58/mycourseworkassignment/master/d
 
   // Size scale for countries
   var size = d3.scaleLinear()
-    .domain([0, 140000000000])
+    .domain([0, 140000000])
     .range([7,55])  // circle will be between 7 and 55 px wide
 
   // create a tooltip
