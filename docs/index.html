@@ -48,16 +48,21 @@ position: absolute;
   cursor: pointer;
 }
 
+.svgContent {
+  width: 100%;
+}
+
 </style>
 <body>
 
 <div id = "sliderdiv">
   <p5>
     <font face="verdana">Size:<font> 
-    <input type="range" min="0.1" max="600" value="300" class="slider" id="myRange">
+    <input type="range" min="200" max="600" value="300" class="slider" id="sizeslider">
+    <font face="verdana">Spacing:<font> 
+    <input type="range" min="0" max="20" value="0" class="slider" id="spacingslider">
   </p5>
 
-  <input type="range" min="0.1" max="600" value="300" class="slider" id="myRange">
 </div>
 
 
