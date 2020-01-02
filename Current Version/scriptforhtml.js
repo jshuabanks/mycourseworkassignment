@@ -80,7 +80,7 @@ class Chart{
 
 }
 
-d3.csv("https://raw.githubusercontent.com/dwvf58/mycourseworkassignment/master/top50gdpinworld.csv", function(data){
+d3.csv("https://raw.githubusercontent.com/dwvf58/mycourseworkassignment/master/Current%20Version/top50gdpinworld.csv", function(data){
 	chart = new Chart(400,300,300,data)
 
 	// Update the current slider value (each time you drag the slider handle)
