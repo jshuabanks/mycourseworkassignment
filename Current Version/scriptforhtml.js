@@ -1,16 +1,15 @@
 class Chart{
-	constructor(margin,width,height,data){
+	constructor(margin,width,height,data,spacing){
 		this.margin = margin
     	this.width = width
     	this.height = height
     	this.data = data
+    	this.spacing = spacing 
     	this.a = this.width/2 - 20;
   		this.b = this.height/2 - 90;
 
 		this.draw()
-
 		this.setArc()
-
   		this.svg()
   		this.pie()
   		this.g()
@@ -36,7 +35,7 @@ class Chart{
 
 	svg(){
 		 this.svg = d3.select("#svgContent").append("svg")
-            			.attr("viewBox", "0 0 " + this.width + " " + this.height/2)
+            			.attr("viewBox", "0 0 " + this.width + " " + this.height)
 			            .attr("preserveAspectRatio", "xMidYMid meet")
 			            .append("g")
 			            .attr("transform","translate("+this.a+","+this.b+")");
@@ -50,7 +49,7 @@ class Chart{
 		this.pie = d3.layout.pie()
             .sort(null)
             .value((d)=>{return (d.GDP);})
-        	.padAngle(.0);
+        	.padAngle(this.spacing);
 	}
 
 	g(){
@@ -80,21 +79,32 @@ class Chart{
 
 }
 
+var sizeslider = document.getElementById("sizeslider");
+document.getElementById("sizeslider").innerHTML = sizeslider.value; // Display the default slider value
+
+var spacingslider = document.getElementById("spacingslider");
+document.getElementById("spacingslider").innerHTML = spacingslider.value; // Display the default slider value
+
 d3.csv("https://raw.githubusercontent.com/dwvf58/mycourseworkassignment/master/Current%20Version/top50gdpinworld.csv", function(data){
-	chart = new Chart(400,300,300,data)
+	chart = new Chart(400,300,300,data,.0)
 
 	// Update the current slider value (each time you drag the slider handle)
-	slider.oninput = function() {
-  		document.getElementById("myRange").innerHTML = this.value;
-  		slider.value = this.value;
+	sizeslider.oninput = function() {
+  		document.getElementById("sizeslider").innerHTML = this.value;
+  		sizeslider.value = this.value;
   		d3.select("svg").remove();
-  		chart = new Chart(400,slider.value,slider.value,data)
+  		chart = new Chart(400,sizeslider.value,sizeslider.value,data,spacingslider.value/100)
 	}
+
+	spacingslider.oninput = function() {
+  		document.getElementById("spacingslider").innerHTML = this.value;
+  		spacingslider.value = this.value;
+  		d3.select("svg").remove();
+  		chart = new Chart(400,sizeslider.value,sizeslider.value,data,spacingslider.value/100)
+  	}
 })
 
-var slider = document.getElementById("myRange");
-var output = document.getElementById("demo");
-document.getElementById("myRange").innerHTML = slider.value; // Display the default slider value
+
 
 
 

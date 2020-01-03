@@ -35,7 +35,7 @@ class Chart{
 
 	svg(){
 		 this.svg = d3.select("#svgContent").append("svg")
-            			.attr("viewBox", "0 0 " + this.width + " " + this.height/2)
+            			.attr("viewBox", "0 0 " + this.width + " " + this.height)
 			            .attr("preserveAspectRatio", "xMidYMid meet")
 			            .append("g")
 			            .attr("transform","translate("+this.a+","+this.b+")");
