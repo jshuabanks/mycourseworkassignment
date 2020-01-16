@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: script.js</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Source: script.js</h1>
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+*@file
+*This file contains the class which takes parameters and creates a class
+*@author Josh Banks
+*/
+/**
+*A class called Chart is used to create the visulisation.
+*@example var chart = new Chart(40, 300, 300, data, 0.0, 'Country: ', 'GDP of Country: $');
+*/
+class Chart {
+/**
+* @param {number} margin - The margin value of the visulisation viewbox.
+* @param {number} width - The width value of the visulisation.
+* @param {number} height - The height value of the visulisation.
+* @param {} data - The data value which is parsed from {@link parsedata}.
+* @param {string} keydescriptiontext - The text which describes the key data used on the first line when hovering over visulisation.
+* @param {string} valuedescriptiontext - The text which describes the value data used on the first line when hovering over visulisation.
+*/
+constructor (margin = 40, width = 300, height = 300, data, spacing = 0.0, keydescriptiontext = 'Country: ', valuedescriptiontext = 'GDP of Country: $') {
+this.margin = margin;
+this.width = width;
+this.height = height;
+this.data = data;
+this.spacing = spacing;
+this.keydescriptiontext = keydescriptiontext;
+this.valuedescriptiontext = valuedescriptiontext;
+this.a = this.width / 2 - 20;
+this.b = this.height / 2 - 90;
+this.draw();
+}
+
+/**
+*This method sets the margin when called with the parameter.
+*/
+setmargin (newmargin) {
+this.margin = newmargin;
+}
+
+/**
+*This method sets the width when called with the parameter.
+*/
+setwidth (newwidth) {
+this.width = newwidth;
+}
+
+/**
+*This method sets the height when called with the parameter.
+*/
+setheight (newheight) {
+this.height = newheight;
+}
+
+/**
+*This method sets the spacing when called with the parameter.
+*/
+setspacing (newspacing) {
+this.spacing = newspacing;
+}
+
+/**
+*This method sets the keydescriptiontext when called with the parameter.
+*/
+setkeydescriptiontext (newkeydescriptiontext) {
+this.keydescriptiontext = newkeydescriptiontext;
+}
+
+/**
+*This method sets the valuetextdescription when called with the parameter.
+*/
+setvaluedescriptiontext (newvaluedescriptiontext) {
+this.valuedescriptiontext = newvaluedescriptiontext;
+}
+
+/**
+*This method gets the margin value when called.
+*/
+getmargin () {
+return this.margin;
+}
+
+/**
+*This method gets the width when called.
+*/
+getwidth () {
+return this.width;
+}
+
+/**
+*This method gets the height when called.
+*/
+getheight () {
+return this.height;
+}
+
+/**
+*This method gets the spacing when called.
+*/
+getspacing () {
+return this.spacing;
+}
+
+/**
+*This method gets the keydescriptiontext when called.
+*/
+getkeydescriptiontext () {
+return this.keydescriptiontext;
+}
+
+/**
+*This method gets the valuetextdescription when called.
+*/
+getvaluedescriptiontext () {
+return this.valuedescriptiontext;
+}
+
+/**
+*The draw method when called will define the margin, radius and colour of the visulisation.
+*We use the parameters passed in the constructor to calculate margin and radius.
+*It then calls the rest of the functions to draw the visulisation.
+*/
+draw () {
+this.margin = { top: this.margin, left: this.margin, right: this.margin, bottom: this.margin };
+this.radius = Math.min(this.width - 100, this.height - 100) / 2;
+this.colour = d3.scale.category20();
+this.Arc();
+this.svg();
+this.pie();
+this.g();
+}
+
+/**
+*This method creates all of the arcs for each of the sectors in pie chart which gives this distinguished look to the visulisations.
+*It takes no parameters.
+*/
+Arc () {
+this.arc = d3.svg.arc()
+.outerRadius(this.radius - 230)
+.innerRadius(this.radius - 50)
+.cornerRadius(20);
+this.arcOver = d3.svg.arc()
+.outerRadius(this.radius + 50)
+.innerRadius(0);
+}
+
+/**
+*This method creates the svg element and its viewbox so that the visulisation can be addded later on.
+*It takes no parameters.
+*/
+svg () {
+this.svg = d3.select('#svgContent').append('svg')
+.attr('viewBox', '0 0 ' + this.width + ' ' + this.height)
+.attr('preserveAspectRatio', 'xMidYMid meet')
+.append('g')
+.attr('transform', 'translate(' + this.a + ',' + this.b + ')');
+
+this.div = d3.select('body')
+.append('div')
+.attr('class', 'tooltip');
+}
+
+/**
+*This method creates the pie chart without the arcs and lays it out into the format of a pie chart using the d3.layout.pie().
+*It takes no parameters.
+*/
+pie () {
+this.pie = d3.layout.pie()
+.sort(null)
+.value((d) => { return (d.value); })
+.padAngle(this.spacing);
+}
+
+/**
+*This method is mainly responsible for the popup which occurs when you hover over the sectors of the pie.
+*It takes data from the csv file and will find the value and key and show them accordingly along with some text which was passed as a parameter called
+*keydescriptiontext and valuedescriptiontext
+*/
+g () {
+this.g = this.svg.selectAll('.arc')
+.data(this.pie(this.data))
+.enter()
+.append('g')
+.attr('class', 'arc')
+.on('mousemove', (d) => {
+this.mouseVal = function () { d3.mouse(this); };
+this.div.style('display', 'none');
+this.div
+.html(this.keydescriptiontext + d.data.key + '&lt;/br>' + this.valuedescriptiontext + d.data.value)
+.style('left', (d3.event.pageX + 12) + 'px')
+.style('top', (d3.event.pageY - 10) + 'px')
+.style('opacity', 1)
+.style('display', 'block');
+})
+.on('mouseout', () => { this.div.html(' ').style('display', 'none'); });
+
+this.g.append('path')
+.attr('d', this.arc)
+.style('fill', (d) => { return this.colour(d.data.key); })
+.attr('d', this.arc);
+}
+}
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Chart.html">Chart</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.3</a> on Thu Jan 16 2020 09:29:01 GMT+0000 (Greenwich Mean Time)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>

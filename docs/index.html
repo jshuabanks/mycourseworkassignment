@@ -1,80 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>GDP of Countries</title>
-    <h2><font face="verdana">GDP of Top 30 Countries - Largest to Smallest<font></h2>
-    <style>
-    .tooltip{
-position: absolute; 
-  text-align: center; 
-  width: 13%; 
-  height:10%;   
-  padding: 2vw; 
-  font: 1.2vw sans-serif;   
-  border: 0px;          
-  border-radius: 8px;
-  color:black;
-  box-shadow: -3px 3px 15px #888888;
-  opacity:0;  }
-
-.slider {
-  -webkit-appearance: none;
-  width: 25%;
-  height: 15px;
-  border-radius: 5px;  
-  background: #d3d3d3;
-  outline: none;
-  opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
-}
-
-.slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%; 
-  background: #4CAF50;
-  cursor: pointer;
-}
-
-.slider::-moz-range-thumb {
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  background: #4CAF50;
-  cursor: pointer;
-}
-
-.svgContent {
-  width: 100%;
-  height: 10000px;
-}
-
-</style>
-<body>
-
-<div id = "sliderdiv">
-  <p5>
-    <font face="verdana">Size:<font> 
-    <input type="range" min="200" max="600" value="300" class="slider" id="sizeslider">
-    <font face="verdana">Spacing:<font> 
-    <input type="range" min="0" max="20" value="0" class="slider" id="spacingslider">
-  </p5>
-
-</div>
-
-
-<div id = "svgContent"></div>
-
-<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-
-
-<script src="scriptforhtml.js"></script>
-
-
-
-</body>
+   <head>
+      <meta charset="utf-8">
+      <title>GDP of Countries</title>
+      <h2>GDP of Top 30 Countries - Largest to Smallest</h2>
+      <link rel="stylesheet" href="style.css">
+      <div class = sliderdiv id = "sliderdiv">
+         Size:
+         <input type="range" min="200" max="600" value="300" class="slider" id="sizeslider">
+         Spacing:
+         <input type="range" min="0" max="20" value="0" class="slider" id="spacingslider">
+      </div>
+      <div id = "svgContent"></div>
+      <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+      <script src="script.js"></script>
+      <script>
+         d3.csv('https://raw.githubusercontent.com/dwvf58/mycourseworkassignment/master/Current%20Version/top50gdpinworld.csv', (data) => {
+         var chart = new Chart(40, 300, 300, data, 0.0, 'Country: ', 'GDP of Country: $');
+         
+         var sizeslider = document.getElementById('sizeslider');
+         document.getElementById('sizeslider').innerHTML = sizeslider.value; // Display the default slider value
+         
+         var spacingslider = document.getElementById('spacingslider');
+         document.getElementById('spacingslider').innerHTML = spacingslider.value; // Display the default slider valu
+         
+         /**
+         * Updates the current slider value of the height and width (each time you drag the slider handle).
+         * Removes the old instance of the visulisation and creates an updated one with the new height and width parameters.
+         * @function sizeslider
+         */
+         sizeslider.oninput = function sizeslider () {
+         document.getElementById('sizeslider').innerHTML = this.value;
+         sizeslider.value = this.value;
+         
+         var chart = new Chart(40, sizeslider.value, sizeslider.value, data, spacingslider.value / 100, 'Country: ', 'GDP of Country: $');
+         d3.select('svg').remove();
+         };
+         
+         /**
+         * Updates the current slider value of the spacing between sector arcs (each time you drag the slider handle).
+         * Removes the old instance of the visulisation and creates an updated one with the new spacing parameter.
+         * @function spacingslider
+         */
+         spacingslider.oninput = function spacingslider () {
+         document.getElementById('spacingslider').innerHTML = this.value;
+         spacingslider.value = this.value;
+         var chart = new Chart(40, sizeslider.value, sizeslider.value, data, spacingslider.value / 100, 'Country: ', 'GDP of Country: $');
+         d3.select('svg').remove();
+         };
+         });
+         
+      </script>
 </html>
